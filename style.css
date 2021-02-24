@@ -1,0 +1,92 @@
+.gallery img{
+    width: 100%;
+}
+
+.gallery-1 img{
+    width: 20%;
+}
+
+h2{
+    color: cornflowerblue;
+    background: #5A5954;
+    font-family: Impact, sans-serif;
+    font-size: 80px;
+    font-weight: 800px;
+    text-align: center;
+}
+
+h3{
+    color: cornflowerblue;
+    background: #5A5954;
+    font-family: Impact, sans-serif;
+    font-size: 50px;
+    font-weight: 400px;
+    text-align: center;
+}
+
+h4{
+    font-family: Helvetica, sans-serif;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800px;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    
+    background-image: url(images/button.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 128px;
+    height: 25px;
+    padding-left: 45px;
+    padding-top: 7px;
+    
+    float: left;   
+}
+
+#menu a:hover{
+    background-image:url(images/button-hover.png);
+    color: black;    
+}
+
+table{
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    font-family: Helvetica, sans-serif;
+}
+
+th{
+    background-color: darkgray;
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+}
+
+p{
+    font-family: Helvetica, sans-serif;
+}
+
+#button input{
+    color: white;
+    font-weight: 800px;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    
+    background-image: url(images/button.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 136px;
+    height: 35px;
+    padding-left: 10px;
+    padding-top: 2px;
+    
+    float:left;
+}
+
+#button input:hover{
+    background-image:url(images/button-hover.png);
+    color: black;
+}
